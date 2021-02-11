@@ -1,0 +1,48 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('img/background.jpg');
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #444;
+  opacity: .8;
+}
+
+.h1-title {
+  font-size: 4rem;
+  font-weight: normal;
+  letter-spacing: .5rem;
+  margin-top: 25vh;
+  text-align: center;
+}
+
+.countdown-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.countdown-container__element {
+  text-align: center;
+}
+
+.output-number {
+  font-size: 6rem;
+  line-height: 1;
+  margin: 0 2rem 1rem 2rem;
+}
+
+.output-name {
+  font-size: 1.5rem;
+  letter-spacing: .3rem;
+}
