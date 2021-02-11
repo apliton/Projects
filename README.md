@@ -1,4 +1,4 @@
 # Projects_
 
-* [Countdown timer](https://apliton.github.io/Projects_/countdown_timer/) 
-* [Webdev](https://apliton.github.io/Projects_/webdev/)
+* [Countdown timer](https://apliton.github.io/Projects/countdown_timer/) 
+* [Webdev](https://apliton.github.io/Projects/webdev/)
