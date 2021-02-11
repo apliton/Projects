@@ -10,8 +10,7 @@ h1, h2, h3, h4, p {
 body {
 	margin: 0 auto;
 	padding: 0;
-	width: 1280px;
-
+	width: 100vw;
 }
 
 .h2-title {
@@ -199,9 +198,15 @@ body {
 
 /* Footer */
 
+.footer {
+	background: #F6F6F6;;
+}
+
 .footer-wrapper {
 	display: flex;
 	justify-content: space-between;
+	padding: 0 2rem;
+	background-image: url('../../assets/images/footer-background.png');
 }
 
 .footer__content {
