@@ -1,0 +1,471 @@
+/* reset css */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: 'Roboto', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* /reset css 
+----------------------------------------------------------------------------------------------------------------------------
+*/
+
+html {
+	box-sizing: border-box;
+	width: 100vw;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+/* Header */
+
+.header {
+	background: url("assets/bg-image.png");
+}
+
+.navigation {
+	display: flex;
+	justify-content: center;
+}
+
+.nav-ul {
+	display: flex;
+	align-items: center;
+	margin: 25px 0;
+}
+
+.logo-img {
+	width: 45px;
+	height: 45px;
+	margin: 0 100px;
+}
+
+.nav-li {
+	display: inline-block;
+}
+
+.nav-li:nth-child(2), .nav-li:last-child {
+	margin-left: 85px;
+}
+
+.nav-link {
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+	line-height: 140%;
+	padding: 0 0 3px 0;
+}
+
+
+.nav-link:hover {
+	border-bottom: 1px solid #fff;
+	padding: 0 0 3px;
+	cursor: pointer;
+}
+
+.section-title {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 733px;
+	margin: 136px auto 183px auto;
+	color: #fff;
+}
+
+.h1-title {
+	font-size: 64px;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 75px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.subtitle {
+	margin-top: 20px;
+	width: 504px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 140%;
+	margin-bottom: 30px;
+}
+
+.btn {
+	padding: 15px 0;
+	color: #fff;
+	text-transform: uppercase;
+	background: #00AFDB;
+	border: none;
+	font-weight: bold;
+	width: 180px;
+	text-align: center;
+}
+
+.btn:hover {
+	background: #009CC2;
+	cursor: pointer;
+}
+
+.socials {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	padding-bottom: 90px;
+}
+
+.social-li {
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.social-li:hover {
+	cursor: pointer;
+}
+
+.social-li:last-child {
+	margin-right: 0;
+}
+
+/* /Header 
+------------------------------------------------------------------------------------------------------------------------------
+*/
+
+/* Block 2 */
+
+.block-2 {
+	display: flex;
+	justify-content: center;
+}
+
+.block-2-content {
+	width: 407px;
+	height: 233px;
+	margin: 295px 248px 314px 268px;
+}
+
+.content-title {
+	font-size: 24px;
+	width: 350px;
+	font-weight: bold;
+	color: #373737;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	line-height: 130%;
+}
+
+.content-description {
+	font-size: 14px;
+	margin-bottom: 30px;
+	line-height: 140%;
+	color: #4E4E4E;
+}
+
+strong {
+	color: #373737;
+	font-weight: 500;
+}
+
+.block-2-image {
+	height: 582px;
+	width: 407px;
+	margin: 120px 270px 140px 0;
+}
+
+/* /Block 2 
+--------------------------------------------------------------------------------------------------------------------------------
+*/
+
+/* Block 3 */
+
+.block-3 {
+	background: #F5F6F7;
+	display: flex;
+	justify-content: center;
+}
+
+.block-3-content {
+	width: 298px;
+	height: 175px;
+	margin: 155px 128px 174px 269px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.block-3-image {
+	width: 45px;
+	height: 45px;
+	margin-bottom: 20px;
+}
+
+.block-3-title {
+	text-transform: uppercase;
+	font-size: 16px;
+	margin-bottom: 10px;
+	color: #373737;
+	font-weight: 500;
+}
+
+.block-3-desc {
+	font-size: 14px;
+	line-height: 140%;
+	color: #4E4E4E;
+	text-align: center;
+}
+
+
+.block-3-pagination {
+	margin: 80px 0 140px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+
+.pagination-images {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 7vh;
+}
+
+.pagination-numbers {
+	margin-bottom: 20px;
+	width: 83px;
+	margin-left: 540px;
+	color: #373737;
+}
+
+.block-3-image-pag {
+	width: 25vw;
+	height: auto;
+	margin-right: 30px;
+}
+
+.last-img {
+	width: 22px;
+	margin-right: 0;
+}
+
+.left-arrow:hover, .right-arrow:hover {
+	opacity: .5;
+	cursor: pointer;
+}
+/* /Block 3
+---------------------------------------------------------------------------------------------------------------------------------
+*/
+
+/* Block 4 */
+
+.block-4 {
+	display: flex;
+	justify-content: center;
+}
+
+.block-4-image {
+	width: 407px;
+	height: 582px;
+	margin: 120px 139px 140px 269px;
+}
+
+.block-4-content {
+	width: 407px;
+	margin: 319px 378px 339px 0;
+}
+
+/* /Block 4
+----------------------------------------------------------------------------------------------------------------------------------
+*/
+
+/* Block 5 */
+
+.block-5 {
+	background: url(assets/pexels-christina-morillo-1181675\ 1.png);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sign-up {
+	margin: 217px 597px 277px 597px;
+}
+
+.sign-up-title {
+	font-size: 24px;
+	color: #fff;
+	font-weight: bold;
+	margin-bottom: 30px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.email-form {
+	display: flex;
+	justify-content: center;
+}
+
+.email-input {
+	width: 340px;
+	padding: 13px 260px 13px 24px;
+	border: none;
+}
+
+.btn-email {
+	width: 66px;
+	height: 45px;
+	background: #00AFDB;
+	border: none;
+}
+
+.btn-email:hover {
+	background: #009CC2;
+	cursor: pointer;
+}
+
+
+
+
+/* /Block 5
+---------------------------------------------------------------------------------------------------------------------------------- 
+*/
+
+/* Block 6 */
+
+.block-6 {	
+	display: flex;
+	justify-content: center;
+}
+
+.download-the-app {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 120px 558px 180px 559px;
+}
+
+.btn-download-block {
+	display: flex;
+	justify-content: center;
+}
+
+.img-apple-store, .img-play-market {
+	background: #009CC2;
+	padding: 14px 20px;
+}
+
+.img-apple-store:hover, .img-play-market:hover {
+	cursor: pointer;
+}
+
+.img-apple-store {
+	margin-right: 30px;
+}
+
+.content-description-block6 {
+	margin-bottom: 30px; 
+	text-align: center;
+	color: #4E4E4E;
+	line-height: 140%;
+	font-size: 14px;
+	width: 480px;
+}
+
+.content-title-block6 {
+	font-size: 24px;
+	width: 350px;
+	font-weight: bold;
+	color: #373737;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	line-height: 130%;
+	text-align: center;
+}
+
+/* /Block 6 
+-----------------------------------------------------------------------------------------------------------------------
+*/
+
+/* Footer */
+
+.footer {
+	background: #000;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.footer-ul {
+	margin: 73px 0 91px 160px;
+}
+
+.footer-li {
+	display: inline;
+	padding: 3px 20px;
+	border-right: 1px solid #4E4E4E;
+}
+
+.footer-li:last-child {
+	border-right: none;
+}
+
+.footer-link {
+	color: #fff;
+	text-decoration: none;
+	line-height: 140%;
+}
+
+.footer-img {
+	width: 45px;
+	height: 45px;
+}
+
+.copyright {
+	color: #818181;
+	font-size: 14px;
+	line-height: 140%;
+}
+
+/* /Footer 
+--------------------------------------------------------------------------------------------------------------------------
+*/
